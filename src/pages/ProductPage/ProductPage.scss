@@ -1,0 +1,37 @@
+.product-wrapper {
+  padding: 50px 0;
+
+  .container-info {
+    .img-wrapper {
+      img {
+        width: 500px;
+      }
+    }
+
+    .content-wrapper {
+      h1 {
+        font-size: 32px;
+        color: #010F56;
+      }
+    }
+  }
+
+  .container-overview {
+    p {
+      line-height: 1.7;
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .product-wrapper{
+    .container-info{
+      .img-wrapper{
+        img{
+          width: 250px;
+        }
+      }
+    }
+  }
+}
